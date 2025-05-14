@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 fastapi
 uvicorn
 pandas
 scikit-learn
 scipy
-=======
-fastapi
-uvicorn
-pandas
-scikit-learn
-scipy
->>>>>>> ad8ef3bd0ed41e03a96df1c874dc61b01d7f98a2

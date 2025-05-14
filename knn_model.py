@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # knn_model.py
 
 import pandas as pd
@@ -60,7 +59,6 @@ def search_movies(query: str, limit: int = 10):
     query = query.lower()
     results = movies[movies['title'].str.lower().str.contains(query)]
     return results['title'].head(limit).tolist()
-=======
 # knn_model.py
 
 import pandas as pd
@@ -122,4 +120,3 @@ def search_movies(query: str, limit: int = 10):
     query = query.lower()
     results = movies[movies['title'].str.lower().str.contains(query)]
     return results['title'].head(limit).tolist()
->>>>>>> ad8ef3bd0ed41e03a96df1c874dc61b01d7f98a2
