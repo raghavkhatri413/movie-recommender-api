@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # main.py
 
 from fastapi import FastAPI, Query
@@ -27,7 +26,6 @@ def search(query: str = Query(..., min_length=1)):
 @app.get("/recommend")
 def recommend(movie: str, top_n: int = 10):
     return {"results": recommend_movies(movie, top_n=top_n)}
-=======
 # main.py
 
 from fastapi import FastAPI, Query
@@ -56,4 +54,3 @@ def search(query: str = Query(..., min_length=1)):
 @app.get("/recommend")
 def recommend(movie: str, top_n: int = 10):
     return {"results": recommend_movies(movie, top_n=top_n)}
->>>>>>> ad8ef3bd0ed41e03a96df1c874dc61b01d7f98a2
