@@ -95,8 +95,22 @@ npx expo start
 
 ---
 
-## 🤝 Contributing
+## 📁 Folder Structure & File Overview
 
-This is a **team submission for academic purposes**.
-
-For improvements or future extensions, feel free to fork and enhance the project!
+```bash
+.
+├── assets/                 # Stores static files like images or fonts used by the frontend
+├── components/            # React Native components (UI elements used in App.js)
+├── .gitignore             # Specifies intentionally untracked files to ignore by Git
+├── App.js                 # Entry point of the React Native application (renders UI)
+├── app.json               # Expo configuration file for the React Native app
+├── eas.json               # EAS (Expo Application Services) build configuration
+├── index.js               # Root file for registering the main React Native app
+├── package.json           # Project dependencies and scripts for the React Native app
+├── package-lock.json      # Exact versions of dependencies used (ensures reproducible builds)
+├── Procfile               # For deploying the app using platforms like Heroku (defines web process)
+├── README.md              # Project documentation and overview
+├── knn_model.py           # Core Python script implementing the KNN algorithm for movie recommendations
+├── main.py                # Backend server script (likely using Flask/FastAPI) to handle requests from frontend
+├── movies.csv             # Dataset containing movie information (title, genre, etc.)
+├── requirements.txt       # Python dependencies required for the backend
