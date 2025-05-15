@@ -93,6 +93,12 @@ npx expo start
 - 🔗 **Live Model API**: [Render App](https://your-render-link.com)
 - 📱 **Frontend App**: Accessible via **Expo Go** or physical device using the QR code
 
+## 📎 Links
+
+
+
+- 📱 **[App Download Link](https://drive.google.com/file/d/1_lqKxe57jA0G3o7kkxO2IMYs50Pc0pOW/view?usp=sharing)**
+- 🎥 **[Working Video Demo](https://drive.google.com/file/d/1RaAhfgDoUoT397mk2VAh_Fx4px9d9Vgi/view?usp=sharing)**
 ---
 
 ## 📁 Folder Structure & File Overview
